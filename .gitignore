@@ -1,0 +1,41 @@
+# =========================
+# Global Node/React Ignore
+# =========================
+
+# Dependencies
+**/node_modules/
+
+#Build outputs
+**/build/
+**/dist/
+**/.next/
+**/.nuxt/
+**/.cache/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+**/.env
+
+# Test coverage
+coverage/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+
+# Lock files (optional, ignore ones you don’t use)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
