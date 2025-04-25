@@ -23,7 +23,7 @@ const authRoute = require("./routes/AuthRoute");
 // app.use(cors());
 app.use(
     cors({
-      origin: ["https://zerodhaclone-o2et.onrender.com", "https://zerodhaclone-clt6.onrender.com"],
+      origin: ["http://localhost:3000", "http://localhost:3001"],
       credentials: true, // Allow cookies & authentication headers
     })
   );

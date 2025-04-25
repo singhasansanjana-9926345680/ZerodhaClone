@@ -46,8 +46,9 @@ const Login = () => {
       console.log("Login successful! Redirecting...");
     
       // window.location.assign("https://zerodhaclone-clt6.onrender.com");  // Assigns a new location
-      // window.location.replace("https://zerodhaclone-clt6.onrender.com");
-      window.location.href = process.env.REACT_APP_DASHBOARD_URL;
+      window.location.replace("http://localhost:3001");
+       // Hardcoded URL for testing
+
 
       
     
