@@ -44,7 +44,8 @@ const Login = () => {
 
       // Redirect to the dashboard running on port 3001
       console.log("Login successful! Redirecting...");
-      window.location.replace("http://localhost:3001");
+    
+      window.location.href="https://zerodhaclone-clt6.onrender.com";
 
       
     
